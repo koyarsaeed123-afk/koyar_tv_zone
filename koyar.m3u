@@ -3,8 +3,8 @@
 #EXTINF:-1 tvg-name="Rudaw TV" group-title="Kurdish News",Rudaw TV
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="NRT 1" group-title="Kurdish TV",NRT 1
-https://nrtlive.akamaized.net/hls/live/2033263/NRT1/index.m3u8
+#EXTINF:-1 tvg-name="Al Hadath" group-title="Arabic News",Al Hadath
+https://shls-alhadath-prod-dub.shahid.net/out/v1/9885cab5c6a54a2a8fd9f9e2c41f6d74/index.m3u8
 
-#EXTINF:-1 tvg-name="AVA TV" group-title="Kurdish TV",AVA TV
-https://avafamily.avatv.live/
+#EXTINF:-1 tvg-name="Al Arabiya" group-title="Arabic News",Al Arabiya
+https://shls-alarabiya-prod-dub.shahid.net/out/v1/062a5a2a5e1343a59a3d7b9e6c94f1c5/index.m3u8
