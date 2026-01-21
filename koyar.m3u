@@ -1,16 +1,13 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="Rudaw TV",Rudaw TV
+#EXTINF:-1,Rudaw TV
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Al Jazeera Arabic",Al Jazeera
+#EXTINF:-1,Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 
-#EXTINF:-1 tvg-name="Sky News Arabia",Sky News Arabia
-https://skynewsarabia-live.akamaized.net/hls/live/2004501/sky-arabia/master.m3u8
+#EXTINF:-1,Al Hadath (New Server)
+http://45.153.229.141:80/play/alhadath/index.m3u8
 
-#EXTINF:-1 tvg-name="BBC Arabic",BBC Arabic
-https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/t=3404/v=pv14/b=5070016/main.m3u8
-
-#EXTINF:-1 tvg-name="TRT Arabic",TRT Arabic
-https://trt.daion.io/trt-arabi/master.m3u8
+#EXTINF:-1,Al Arabiya (New Server)
+http://45.153.229.141:80/play/alarabiya/index.m3u8
