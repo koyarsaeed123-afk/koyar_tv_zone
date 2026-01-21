@@ -1,5 +1,4 @@
 #EXTM3U
-#EXTM3U
 
 #EXTINF:-1 tvg-name="Rudaw TV" group-title="Kurdish News",Rudaw TV
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
@@ -7,5 +6,5 @@ https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NRT 1" group-title="Kurdish TV",NRT 1
 https://nrtlive.akamaized.net/hls/live/2033263/NRT1/index.m3u8
 
-#EXTINF:-1 tvg-name="Ava TV" group-title="Kurdish TV",Ava TV
-https://ava-live.stream.worksmedia.net/avahd/playlist.m3u8
+#EXTINF:-1 tvg-name="AVA TV" group-title="Kurdish TV",AVA TV
+https://avafamily.avatv.live/
