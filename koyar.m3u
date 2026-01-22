@@ -1,28 +1,20 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://www.rudaw.net/Content/images/rudaw-logo.png" group-title="Kurdish",Rudaw TV
+#EXTINF:-1 group-title="Kurdish",Rudaw TV
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.aljazeera.net/wp-content/uploads/2022/10/AJA_Logo.png" group-title="News",Al Jazeera Arabic
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.skynewsarabia.com/icon.png" group-title="News",Sky News Arabia
-https://skynewsarabia-live.akamaized.net/hls/live/2004501/sky-arabia/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.trt.net.tr/static/images/logos/trt-world.png" group-title="News",TRT Arabic
-https://trt.daion.io/trt-arabi/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://news.un.org/sites/all/themes/un_news/logo.png" group-title="News",UN TV (United Nations)
-https://unitednations-hls.akamaized.net/hls/live/2037956/un-vhls-v1/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.france24.com/favicon.ico" group-title="News",France 24 Arabic
-https://static.france24.com/live/F24_AR_AL_HLS/live_tv.m3u8
-
 #EXTINF:-1 group-title="Kurdish",Kurdistan 24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
 https://k24testlive.m-itss.com/live/k24/playlist.m3u8
 
-#EXTINF:-1 group-title="Religious",Saudi Sunnah (مباشر السنة)
-https://strm.yalla-shoot-7asry.com/live/sunnah/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish",WAAR TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
+https://waartv.m-itss.com/live/waartv/playlist.m3u8
 
-#EXTINF:-1 group-title="Religious",Saudi Quran (مباشر القرآن)
-https://strm.yalla-shoot-7asry.com/live/quran/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish",AVA Entertainment
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
+https://avatv.m-itss.com/live/ava/playlist.m3u8
+
+#EXTINF:-1 group-title="News",Al Jazeera Arabic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
