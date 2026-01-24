@@ -4,16 +4,23 @@
 https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Kurdish",Kurdistan 24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
-https://k24testlive.m-itss.com/live/k24/playlist.m3u8
+http://lukatv.net:8880/356498321176/6963f11042937.16369/287923
 
-#EXTINF:-1 group-title="Kurdish",WAAR TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
-https://waartv.m-itss.com/live/waartv/playlist.m3u8
-
-#EXTINF:-1 group-title="Koyar TV",AVA Entertainment
+#EXTINF:-1 group-title="Koyar TV Kurdi",AVA Entertainment
 http://lukatv.net:8880/356498321176/6963f11042937.16369/287897
 
-#EXTINF:-1 group-title="News",Al Jazeera Arabic
+#EXTINF:-1 group-title="Koyar TV Arabic",Al Jazeera Arabic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+
+#EXTINF:-1 group-title="Koyar TV Kurdi",NRT 1
+http://lukatv.net:8880/356498321176/6963f11042937.16369/287886
+
+#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdsat News
+http://lukatv.net:8880/356498321176/6963f11042937.16369/287889
+
+#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdsat 
+http://lukatv.net:8880/356498321176/6963f11042937.16369/287911
+
+#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdmax
+http://lukatv.net:8880/356498321176/6963f11042937.16369/287880
