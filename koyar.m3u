@@ -1,54 +1,43 @@
 #EXTM3U
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",Rudaw TV
-https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdistan 24
-http://lukatv.net:8880/356498321176/6963f11042937.16369/346149
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",AVA Entertainment
-http://lukatv.net:8880/356498321176/6963f11042937.16369/287901
-
-#EXTINF:-1 group-title="Koyar TV Arabic",Al Jazeera Arabic
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",NRT 1
-http://lukatv.net:8880/356498321176/6963f11042937.16369/287878
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdsat News
-http://lukatv.net:8880/356498321176/6963f11042937.16369/287890
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdsat 
-http://lukatv.net:8880/356498321176/6963f11042937.16369/287880
-
-#EXTINF:-1 group-title="Koyar TV Kurdi",Kurdmax
-http://lukatv.net:8880/356498321176/6963f11042937.16369/287882
-
-#EXTINF:-1 group-title="Koyar TV Sport",AVA Sport
-http://2.57.214.72:2095/Arjc0WCSzNRt_180488/KILxRwQfON9tBs/358221?token=yHXUHH.X.y.X.ydHyzzfzHy.X.y.IQ.ts.21ad7b2f58ad4c016dbbdbbe596adbc69e11cce4b0546199b4bfd6d87b4716b5...sh
-
-
-#EXTINF:-1 group-title="Koyar TV Sport",NRT Sport
-http://lukatv.net:8880/356498321176/6963f11042937.16369/550914
-
-#EXTINF:-1 group-title="Koyar TV Sport",BeIN Sport 2
-http://lukatv.net:8880/356498321176/6963f11042937.16369/320199
-
-#EXTINF:-1 group-title="Koyar TV Sport",BeIN Sport 1
-http://lukatv.net:8880/356498321176/6963f11042937.16369/546604
-
-#EXTINF:-1 group-title="Koyar TV Arabic",Makkah
-https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
-
-
-
-
-
-
-
-
-
-
-
-
+#EXTINF:-1 group-title="Kurdistan Sport",KU: NRT Sport
+http://lion20.top:8080/live/229815636887/192402289369/358220.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Kurdistan Sport
+http://lion20.top:8080/live/229815636887/192402289369/358219.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Ava Sport
+http://lion20.top:8080/live/229815636887/192402289369/358221.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: See Sport 1
+http://lion20.top:8080/live/229815636887/192402289369/358222.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: See Sport 2
+http://lion20.top:8080/live/229815636887/192402289369/358223.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: See Sport 3
+http://lion20.top:8080/live/229815636887/192402289369/358224.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Aro Sport
+http://lion20.top:8080/live/229815636887/192402289369/358225.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Duhok Sport
+http://lion20.top:8080/live/229815636887/192402289369/358226.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: 4 Sport
+http://lion20.top:8080/live/229815636887/192402289369/358227.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Astera Sport
+http://lion20.top:8080/live/229815636887/192402289369/358228.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: LD Sport
+http://lion20.top:8080/live/229815636887/192402289369/358229.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Dasinya Sport
+http://lion20.top:8080/live/229815636887/192402289369/358230.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: MTV Sport
+http://lion20.top:8080/live/229815636887/192402289369/358231.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU:Aso Sport
+http://lion20.top:8080/live/229815636887/192402289369/358232.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Newline Sport
+http://lion20.top:8080/live/229815636887/192402289369/358233.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: MMN SPORT
+http://lion20.top:8080/live/229815636887/192402289369/358234.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: NUBAR SPORT
+http://lion20.top:8080/live/229815636887/192402289369/358235.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: SIMA SPORT
+http://lion20.top:8080/live/229815636887/192402289369/358236.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Zaxo Sport
+http://lion20.top:8080/live/229815636887/192402289369/358237.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: LD SPORT CHEAK
+http://lion20.top:8080/live/229815636887/192402289369/358238.ts
+#EXTINF:-1 group-title="Kurdistan Sport",KU: Delal Sport
+http://lion20.top:8080/live/229815636887/192402289369/358239.ts
