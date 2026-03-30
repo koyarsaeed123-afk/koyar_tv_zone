@@ -1,0 +1,27 @@
+name: Update IPTV Link
+on:
+  schedule:
+    - cron: '0 * * * *' # هەموو کاتژمێرێک جارێک ئیش دەکات
+  workflow_dispatch: # دەتوانیت بە دەستیش ئیشی پێ بکەیت
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run script
+        run: python update_link.py
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add playlist.m3u
+          git commit -m "Auto update link" || exit 0
+          git push
