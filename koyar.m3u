@@ -1,18 +1,99 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://avatv.net/assets/images/logo.png", AVA TV
+#EXTINF:-1,AVA TV
 https://ava4.store/upload/images/720.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.rudaw.net/Content/images/rudaw-logo.png", Rudaw HD
+#EXTINF:-1,Rudaw HD
 https://live.rudaw.net/hls/rudaw-tv/stream_1080p.m3u8
-
-#EXTINF:-1 tvg-logo="https://kurdsat.tv/images/logo.png", Kurdsat HD
+#EXTINF:-1,Kurdsat HD
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
-
-#EXTINF:-1 tvg-logo="https://kurdsat.tv/images/logo-news.png", Kurdsat News
+#EXTINF:-1,Kurdsat News
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS-avc1_2500000=10002.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.kurdistan24.net/assets/images/logo.png", Kurdistan 24
+#EXTINF:-1,Kurdistan 24
 https://d1x82nydcxndze.cloudfront.net/live/index_720p25.m3u8
-
-#EXTINF:-1 tvg-logo="https://kurdistantv.net/assets/images/logo.png", Kurdistan TV
+#EXTINF:-1,Kurdistan TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
+#EXTINF:-1,Rudaw 4K
+http://ygo2025.top/live/8603954198/2330968616/499431.ts
+#EXTINF:-1,K24 4K
+http://ygo2025.top/live/8603954198/2330968616/499432.ts
+#EXTINF:-1,NRT 1 4K
+http://ygo2025.top/live/8603954198/2330968616/499433.ts
+#EXTINF:-1,NRT2 4K
+http://ygo2025.top/live/8603954198/2330968616/499434.ts
+#EXTINF:-1,Kurdsat 4K
+http://ygo2025.top/live/8603954198/2330968616/499435.ts
+#EXTINF:-1,Kurdsat News 4K
+http://ygo2025.top/live/8603954198/2330968616/499436.ts
+#EXTINF:-1,KurdMax Sor 4K
+http://ygo2025.top/live/8603954198/2330968616/499437.ts
+#EXTINF:-1,KurdMax Kur 4K
+http://ygo2025.top/live/8603954198/2330968616/499438.ts
+#EXTINF:-1,KurdMax Show Sor 4K
+http://ygo2025.top/live/8603954198/2330968616/499439.ts
+#EXTINF:-1,KurdMax Show Kur 4K
+http://ygo2025.top/live/8603954198/2330968616/499440.ts
+#EXTINF:-1,Bangawaz tv 4k
+http://ygo2025.top/live/8603954198/2330968616/499441.ts
+#EXTINF:-1,Knn 4K
+http://ygo2025.top/live/8603954198/2330968616/499442.ts
+#EXTINF:-1,Korek 4K
+http://ygo2025.top/live/8603954198/2330968616/499443.ts
+#EXTINF:-1,Kurd Channel 4K
+http://ygo2025.top/live/8603954198/2330968616/499444.ts
+#EXTINF:-1,Kurdistan TV 4K
+http://ygo2025.top/live/8603954198/2330968616/499445.ts
+#EXTINF:-1,Payam 4K
+http://ygo2025.top/live/8603954198/2330968616/499446.ts
+#EXTINF:-1,Sahar 4K
+http://ygo2025.top/live/8603954198/2330968616/499447.ts
+#EXTINF:-1,Speda 4K
+http://ygo2025.top/live/8603954198/2330968616/499448.ts
+#EXTINF:-1,TRT Kurdi 4K
+http://ygo2025.top/live/8603954198/2330968616/499449.ts
+#EXTINF:-1,Waar 4K
+http://ygo2025.top/live/8603954198/2330968616/499450.ts
+#EXTINF:-1,Zagros 4K
+http://ygo2025.top/live/8603954198/2330968616/499451.ts
+#EXTINF:-1,KNN HD
+http://ygo2025.top/live/8603954198/2330968616/499456.ts
+#EXTINF:-1,Kirkuk TV
+http://ygo2025.top/live/8603954198/2330968616/499460.ts
+#EXTINF:-1,KurdMax Sorani HD
+http://ygo2025.top/live/8603954198/2330968616/499469.ts
+#EXTINF:-1,KurdMax Kurmanji HD
+http://ygo2025.top/live/8603954198/2330968616/499470.ts
+#EXTINF:-1,KurdMax Show HD Sorani
+http://ygo2025.top/live/8603954198/2330968616/499471.ts
+#EXTINF:-1,KurdMax Show Kurmanji HD
+http://ygo2025.top/live/8603954198/2330968616/499472.ts
+#EXTINF:-1,Iraqia Kurdish TV
+http://ygo2025.top/live/8603954198/2330968616/499473.ts
+#EXTINF:-1,A TV HD
+http://ygo2025.top/live/8603954198/2330968616/499474.ts
+#EXTINF:-1,Sahar Kurdi TV
+http://ygo2025.top/live/8603954198/2330968616/499475.ts
+#EXTINF:-1,NRT 4 HD
+http://ygo2025.top/live/8603954198/2330968616/499476.ts
+#EXTINF:-1,Amozhgary TV HD
+http://ygo2025.top/live/8603954198/2330968616/499477.ts
+#EXTINF:-1,Bangawaz TV
+http://ygo2025.top/live/8603954198/2330968616/499478.ts
+#EXTINF:-1,NRT 3 Kids HD
+http://ygo2025.top/live/8603954198/2330968616/499479.ts
+#EXTINF:-1,Zarok TV
+http://ygo2025.top/live/8603954198/2330968616/499480.ts
+#EXTINF:-1,Med Music TV
+http://ygo2025.top/live/8603954198/2330968616/499481.ts
+#EXTINF:-1,Sterk TV
+http://ygo2025.top/live/8603954198/2330968616/499482.ts
+#EXTINF:-1,Aryen TV
+http://ygo2025.top/live/8603954198/2330968616/499483.ts
+#EXTINF:-1,Ronahi TV
+http://ygo2025.top/live/8603954198/2330968616/499484.ts
+#EXTINF:-1,Cira TV
+http://ygo2025.top/live/8603954198/2330968616/499485.ts
+#EXTINF:-1,Rojava HD
+http://ygo2025.top/live/8603954198/2330968616/499486.ts
+#EXTINF:-1,Jin HD
+http://ygo2025.top/live/8603954198/2330968616/499487.ts
+#EXTINF:-1,Neu TV
+http://ygo2025.top/live/8603954198/2330968616/499488.ts
