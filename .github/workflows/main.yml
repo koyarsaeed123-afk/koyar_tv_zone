@@ -14,7 +14,7 @@ jobs:
       - name: Run Scraper Script
         run: |
           python - <<EOF
-          # لێنکە Master-ەکە کە دۆزیتەوە (بە چاککراوی)
+          # لێنکە چاککراوەکە بەپێی ئەو داتایەی لە وایەرشارک ناردت
           raw_url = "http://104.160.15.53/lbengine+phR3VljnchKGB2Dkfg__hi__eli2DFfBgx9CXNZhWy3__ih__vL1wsSN3l68YiEGOgi9MhRf9giOCd__hi__y47iHbYnwodZmedCbdZM0zqdN5sd__hi__pHw59wON5qia6BF6509uY1U7izDawkP8AOx__hi__TpZ50DhrjG7AtTIL8G4SuXxVYH__hi__wwbIs3wRtjENHdardcEgCAj6EptXYMCnzcTX__ih__h1TVeb5ci7s8KPK3BIVpFM1__ih__JcPPgP7MCE1r1TKelp__ih__zY8dpDcmFkhjalvU3V2F__ih__xFXNwUqH0S__hi__yMbbBaepJA04TMsnj1ka7iAFC7o__hi__U=---/cache/AVA-Sport-HD-LB/master.m3u8"
 
           m3u_content = f"#EXTM3U\n#EXTINF:-1,AVA Sport HD (Master)\n{raw_url}"
@@ -28,5 +28,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Updated to Master Playlist" || exit 0
+          git commit -m "Fixed Master URL structure" || exit 0
           git push
