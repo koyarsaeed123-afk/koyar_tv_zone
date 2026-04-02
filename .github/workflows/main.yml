@@ -17,7 +17,7 @@ jobs:
           import requests
 
           # ئەو لێنکە درێژەی کە ئێستا لە وایەرشارک دۆزیتەوە
-          raw_url = "http://104.160.15.138/R3VljnchKGB2Dkfg__hi__eli2DFfBgx9CXNZhWy3__ih__vL1wsSN3l68YiEGOgi9MhRf9giOCd__hi__y47iHbYnwodZmedCbdZM0zqdN5sd__hi__pHw59wON5qisbaGVGDgDjim47ifDK76UEEBzI6bKfkc4ps8kO8lH__ih__t4ByWHJDs__hi__fg7pXm1F0fcYc__ih__Ewnr18XmfPelZj9ySae5s9zLXPuABvXPsy4TmC__hi__uhqJZfyaZmSMX7rpqXQL0XGgThdwQMKKK0INFgMHD4Q4JY6G__ih__J1Dz8Nt8ysvus__ih__B2GEzNrry9n26DG79Sx5WDEq8=---/cache/AVA-Sport-HD-LB/m3u8/AVA-Sport-HD_tracks-v1a1_mono.m3u8"
+          raw_url = "http://104.160.15.138/cache/AVA-Sport-HD-LB/playlist.m3u8"
 
           # ئەو ناسنامەیەی کە لە وایەرشارک بینیمان
           headers = {
