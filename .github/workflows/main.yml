@@ -1,8 +1,8 @@
 name: Auto Update IPTV Links
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+    - cron: '*/10 * * * *' # هەموو ١٠ خولەک جارێک خۆی نوێ دەکاتەوە
+  workflow_dispatch: # بۆ ئەوەی خۆت بە دەستیش بتوانی نوێی بکەیتەوە
 
 jobs:
   update:
@@ -11,17 +11,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run Update Script
-        env:
-          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      - name: Run Scraper Script
         run: |
           python - <<EOF
-          import os
+          import requests
 
-          # لێنکە نوێیەکەی کە ئێستا ناردی
-          full_url = "http://104.160.15.138/B9cfgPyClaKOYm1bc0RfSWMS0rccA2acbxEv__ih__Bg85mXiBqbVrF74wnvMMDke42n6sbCh9iNsBsF6cZ9i9xxZYGoKHsiESyFNVSqewCm11xwsBv5nMnlQs__hi__mQEbwsQxdhn9XKISPB1k2OX2rDieP8yR3bT03yNQ__hi__L2gcwxKKp2MQ7F__hi__4bWM__hi__SzIq9EeRkQ0ti272vKlW0Sr1cx2tXVoIwmJwzlTA5gTria0IANjT0HFPYXZcU__ih__mUBJI1QnC3TJojaP76KHkw8exujkORRnTaDSq4ZxtZNinNzn__ih__tb4__hi____hi__FaKPQ=---/cache/AVA-Sport-HD-LB/m3u8/AVA-Sport-HD_tracks-v1a1_mono.m3u8"
+          # ئەو لێنکە درێژەی کە ئێستا لە وایەرشارک دۆزیتەوە
+          raw_url = "http://104.160.15.138/R3VljnchKGB2Dkfg__hi__eli2DFfBgx9CXNZhWy3__ih__vL1wsSN3l68YiEGOgi9MhRf9giOCd__hi__y47iHbYnwodZmedCbdZM0zqdN5sd__hi__pHw59wON5qisbaGVGDgDjim47ifDK76UEEBzI6bKfkc4ps8kO8lH__ih__t4ByWHJDs__hi__fg7pXm1F0fcYc__ih__Ewnr18XmfPelZj9ySae5s9zLXPuABvXPsy4TmC__hi__uhqJZfyaZmSMX7rpqXQL0XGgThdwQMKKK0INFgMHD4Q4JY6G__ih__J1Dz8Nt8ysvus__ih__B2GEzNrry9n26DG79Sx5WDEq8=---/cache/AVA-Sport-HD-LB/m3u8/AVA-Sport-HD_tracks-v1a1_mono.m3u8"
 
-          m3u_content = f"#EXTM3U\n#EXTINF:-1,AVA Sport HD\n{full_url}"
+          # ئەو ناسنامەیەی کە لە وایەرشارک بینیمان
+          headers = {
+              "User-Agent": "And$MyTV",
+              "Connection": "Keep-Alive",
+              "Host": "104.160.15.138"
+          }
+
+          # دروستکردنی فایلی m3u
+          m3u_content = f"#EXTM3U\n#EXTINF:-1,AVA Sport HD\n{raw_url}"
 
           with open("koyar.m3u", "w") as f:
               f.write(m3u_content)
@@ -32,5 +38,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Updated link in main.yml with m3u8" || exit 0
+          git commit -m "Automated update with User-Agent" || exit 0
           git push
