@@ -1,8 +1,8 @@
 name: Auto Update IPTV Links
 on:
   schedule:
-    - cron: '*/10 * * * *' # هەموو ١٠ خولەک جارێک خۆی نوێ دەکاتەوە
-  workflow_dispatch: # بۆ ئەوەی خۆت بە دەستیش بتوانی نوێی بکەیتەوە
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -14,20 +14,10 @@ jobs:
       - name: Run Scraper Script
         run: |
           python - <<EOF
-          import requests
+          # لێنکە Master-ەکە کە دۆزیتەوە (بە چاککراوی)
+          raw_url = "http://104.160.15.53/lbengine+phR3VljnchKGB2Dkfg__hi__eli2DFfBgx9CXNZhWy3__ih__vL1wsSN3l68YiEGOgi9MhRf9giOCd__hi__y47iHbYnwodZmedCbdZM0zqdN5sd__hi__pHw59wON5qia6BF6509uY1U7izDawkP8AOx__hi__TpZ50DhrjG7AtTIL8G4SuXxVYH__hi__wwbIs3wRtjENHdardcEgCAj6EptXYMCnzcTX__ih__h1TVeb5ci7s8KPK3BIVpFM1__ih__JcPPgP7MCE1r1TKelp__ih__zY8dpDcmFkhjalvU3V2F__ih__xFXNwUqH0S__hi__yMbbBaepJA04TMsnj1ka7iAFC7o__hi__U=---/cache/AVA-Sport-HD-LB/master.m3u8"
 
-          # ئەو لێنکە درێژەی کە ئێستا لە وایەرشارک دۆزیتەوە
-          raw_url = "http://104.160.15.138/cache/AVA-Sport-HD-LB/playlist.m3u8"
-
-          # ئەو ناسنامەیەی کە لە وایەرشارک بینیمان
-          headers = {
-              "User-Agent": "And$MyTV",
-              "Connection": "Keep-Alive",
-              "Host": "104.160.15.138"
-          }
-
-          # دروستکردنی فایلی m3u
-          m3u_content = f"#EXTM3U\n#EXTINF:-1,AVA Sport HD\n{raw_url}"
+          m3u_content = f"#EXTM3U\n#EXTINF:-1,AVA Sport HD (Master)\n{raw_url}"
 
           with open("koyar.m3u", "w") as f:
               f.write(m3u_content)
@@ -38,5 +28,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Automated update with User-Agent" || exit 0
+          git commit -m "Updated to Master Playlist" || exit 0
           git push
