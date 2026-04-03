@@ -14,19 +14,21 @@ jobs:
       - name: Run Scraper Script
         run: |
           python - <<EOF
-          # لێنکی کەناڵی یەکەم (AVA Sport)
-          ava_url = "http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVp7pKgDT56dKbPc__hi__9cXJ__hi__owJ87q8djKxJ5PsX5vISCcD72H5pSn2rM7hrc31gKdA__ih__OuwVVqrQaYB48VCBskxOG__ih__IRbCKOOIm4r5QS4w7__ih__cr9zWolwDTOMouHLaX9w0pqUoQMGlYAIzFWSbRrHERju2f8x__hi__idedMYwNml__hi__LjkhbLhN2l6QJf__ih__jptt8Y8K8Mcw__ih__o8=---/cache/AVA-Sport-HD-LB/master.m3u8"
+          # لیستی کەناڵەکان بەبێ لۆگۆ
+          channels = [
+              {"name": "AVA Sport HD", "url": "http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVp7pKgDT56dKbPc__hi__9cXJ__hi__owJ87q8djKxJ5PsX5vISCcD72H5pSn2rM7hrc31gKdA__ih__OuwVVqrQaYB48VCBskxOG__ih__IRbCKOOIm4r5QS4w7__ih__cr9zWolwDTOMouHLaX9w0pqUoQMGlYAIzFWSbRrHERju2f8x__hi__idedMYwNml__hi__LjkhbLhN2l6QJf__ih__jptt8Y8K8Mcw__ih__o8=---/cache/AVA-Sport-HD-LB/master.m3u8"},
+              {"name": "Falcon Eye 1", "url": "http://104.160.15.54/lbengine/+ph/XRMdByflQHTLYaKHbDJpFjcc__ih__9PyRiGk8d42qmaDaz4QFoGfMkZsmv2aqS4E4cFHvO32VT1Q79LA1OwTgi4BniuodZNkzztJVoAHLrAHCuMza__ih__v0m7PWI8KkKguK__ih__por2XZI__hi__qG5Dg2uZu8XpaCxjh8PC4MqSesKBrwbBQnObyGJ71WMyZL1xZDO34SezgbefwR__ih__bzTyEHEFzAlQBJJAEcTDOfzYlXUq__ih__HZp5DYvjbwzd0TdXOwqN__hi__kllxsKDpcJCmisBgBC__hi__ybknUff8FVaszXzdJL1KShzzRr7yfV1Qyqo=---/cache/Falcon-Eye-LB/master.m3u8"},
+              {"name": "Falcon Eye 2", "url": "http://104.160.15.53/lbengine/+ph/XRMdByflQHTLYaKHbDJpFjcc__ih__9PyRiGk8d42qmaDaz4QFoGfMkZsmv2aqS4E4cFH68BLQyxlGJPhF8pUrG2__ih__BLIeOZv9n__ih__NnxWIDwbPhT6qKf6c5DcIZ2gAoQY4mQ9PpQQ3FD9F3tTeqERZuZIx00a8gQD5aMtsHQuAkXLlZ1PNvVLIwljOHjV2d6__ih__GHIXrTJUQwrk2hcHbNgB65HH__hi__JdHlXWK0dN__hi__aDQ5LkZ9E__hi__AS9QlF43DEVGCIgZ2gwfHs8AuujS2CvLhmqG8eCFDAHyAoTrnjhkDNWy7HAhKZFrgvTI=---/cache/Falcon-Eye-2-LB/master.m3u8"},
+              {"name": "Falcon Eye 3", "url": "http://104.160.15.53/lbengine/+ph/idONRCyo5b9P5vEfxJKl9zxifGbnC39ppCb7OH__hi__mb956Z__hi__Ve__hi__SySATotmk6aH2__hi__aO__ih__aQ4x__ih__xVVIMMoomnfwLm6w4P69StmWxYlnYI__ih__CnUcbRHOgBd2HgLaB85BP4PlVzrjjbJXKuR1R5564PQRCbe79__hi__fHAt1sFS10NOuy8od__ih__lfvbnBK9gJBWoemaXCi__hi__2vW__ih__1VFxg6TDJJW__hi__V0BiL57ZBMwnQF7gkKeI3NGe9n1q__ih__SeEm7ExmfoJqY2D6vd9zAtTXgQCFwYq5N51EH4KkiTQorB3m7T3d8A4HFVO8Gqf4U=---/cache/Falcon-Eye-3-LB/master.m3u8"},
+              {"name": "NRT Sport", "url": "http://104.160.15.53/lbengine/+ph/idONRCyo5b9P5vEfxJKl9zxifGbnC39ppCb7OH__hi__mb956Z__hi__Ve__hi__SySATotmk6aH2__hi__aOIOeB__hi__nY1zjJ__ih__WfJMbRNiWZ1RTSHqDgvlbK7U4lVKeV7Ng4DKCiV6BFf5Wp8cwmauX92__ih__jm7roWbBd9e4sD9289Ax9Wfmwc1U1pMCnSDawgv0MJfFtcgvLLXld5erZAYA99DYxtBbX7h__ih__7uqicieurceY4tzvRU__hi__lQrtWotUYV8VUFZjXtdfU1Fv9j4SIf__hi__wQFeHo5VC2pqkHQt__ih__zudVqJz6F1NfUzG__ih__ruqMDqcj4Ni0=---/cache/NRT-Sport-LB/master.m3u8"}
+          ]
 
-          # لێنکی کەناڵی دووەم (Falcon Eye 1)
-          falcon_url = "http://104.160.15.54/lbengine/+ph/XRMdByflQHTLYaKHbDJpFjcc__ih__9PyRiGk8d42qmaDaz4QFoGfMkZsmv2aqS4E4cFHvO32VT1Q79LA1OwTgi4BniuodZNkzztJVoAHLrAHCuMza__ih__v0m7PWI8KkKguK__ih__por2XZI__hi__qG5Dg2uZu8XpaCxjh8PC4MqSesKBrwbBQnObyGJ71WMyZL1xZDO34SezgbefwR__ih__bzTyEHEFzAlQBJJAEcTDOfzYlXUq__ih__HZp5DYvjbwzd0TdXOwqN__hi__kllxsKDpcJCmisBgBC__hi__ybknUff8FVaszXzdJL1KShzzRr7yfV1Qyqo=---/cache/Falcon-Eye-LB/master.m3u8"
-
-          # دروستکردنی ناوەڕۆکی فایلی m3u بۆ هەردوو کەناڵەکە
-          m3u_content = f"#EXTM3U\n"
-          m3u_content += f"#EXTINF:-1 tvg-logo='https://raw.githubusercontent.com/koyar/logos/main/ava.png', AVA Sport HD\n{ava_url}\n"
-          m3u_content += f"#EXTINF:-1 tvg-logo='https://raw.githubusercontent.com/koyar/logos/main/falcon.png', Falcon Eye 1\n{falcon_url}"
+          m3u = "#EXTM3U\n"
+          for ch in channels:
+              m3u += f"#EXTINF:-1, {ch['name']}\n{ch['url']}\n"
 
           with open("koyar.m3u", "w") as f:
-              f.write(m3u_content)
+              f.write(m3u)
           EOF
 
       - name: Commit and Push
@@ -34,5 +36,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Added Falcon Eye 1 to playlist" || exit 0
+          git commit -m "Removed logos from playlist" || exit 0
           git push
