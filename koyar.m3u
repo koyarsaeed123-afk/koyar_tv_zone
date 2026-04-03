@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1,AVA Sport HD (Auto-Update)
+#EXTINF:-1 tvg-logo='https://raw.githubusercontent.com/koyar/logos/main/ava.png', AVA Sport HD
 http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVp7pKgDT56dKbPc__hi__9cXJ__hi__owJ87q8djKxJ5PsX5vISCcD72H5pSn2rM7hrc31gKdA__ih__OuwVVqrQaYB48VCBskxOG__ih__IRbCKOOIm4r5QS4w7__ih__cr9zWolwDTOMouHLaX9w0pqUoQMGlYAIzFWSbRrHERju2f8x__hi__idedMYwNml__hi__LjkhbLhN2l6QJf__ih__jptt8Y8K8Mcw__ih__o8=---/cache/AVA-Sport-HD-LB/master.m3u8
+#EXTINF:-1 tvg-logo='https://raw.githubusercontent.com/koyar/logos/main/falcon.png', Falcon Eye 1
+http://104.160.15.54/lbengine/+ph/XRMdByflQHTLYaKHbDJpFjcc__ih__9PyRiGk8d42qmaDaz4QFoGfMkZsmv2aqS4E4cFHvO32VT1Q79LA1OwTgi4BniuodZNkzztJVoAHLrAHCuMza__ih__v0m7PWI8KkKguK__ih__por2XZI__hi__qG5Dg2uZu8XpaCxjh8PC4MqSesKBrwbBQnObyGJ71WMyZL1xZDO34SezgbefwR__ih__bzTyEHEFzAlQBJJAEcTDOfzYlXUq__ih__HZp5DYvjbwzd0TdXOwqN__hi__kllxsKDpcJCmisBgBC__hi__ybknUff8FVaszXzdJL1KShzzRr7yfV1Qyqo=---/cache/Falcon-Eye-LB/master.m3u8
