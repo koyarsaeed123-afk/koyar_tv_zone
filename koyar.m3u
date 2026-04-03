@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1,AVA TV
-https://ava4.store/upload/images/720.m3u8
-#EXTINF:-1,Rudaw HD
-https://live.rudaw.net/hls/rudaw-tv/stream_1080p.m3u8
-#EXTINF:-1,Kurdsat HD
-https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
-#EXTINF:-1,Kurdsat News
-https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS-avc1_2500000=10002.m3u8
-#EXTINF:-1,Kurdistan 24
-https://d1x82nydcxndze.cloudfront.net/live/index_720p25.m3u8
-#EXTINF:-1,Kurdistan TV
-https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1, AVA Sport HD
 http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVp7pKgDT56dKbPc__hi__9cXJ__hi__owJ87q8djKxJ5PsX5vISCcD72H5pSn2rM7hrc31gKdA__ih__OuwVVqrQaYB48VCBskxOG__ih__IRbCKOOIm4r5QS4w7__ih__cr9zWolwDTOMouHLaX9w0pqUoQMGlYAIzFWSbRrHERju2f8x__hi__idedMYwNml__hi__LjkhbLhN2l6QJf__ih__jptt8Y8K8Mcw__ih__o8=---/cache/AVA-Sport-HD-LB/master.m3u8
 #EXTINF:-1, Falcon Eye 1
