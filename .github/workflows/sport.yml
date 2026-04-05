@@ -1,51 +1,55 @@
-name: Auto IPTV Scraper
+name: Karwan TV AVA Scraper
 on:
   schedule:
-    - cron: '*/30 * * * *' # ئەمە واتە هەموو ٣٠ خولەک جارێک (نیو کاتژمێر)
+    - cron: '*/30 * * * *' # هەموو ٣٠ خولەک جارێک نوێ دەبێتەوە
   workflow_dispatch:
 
 jobs:
-  update_list:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run Python Scraper
+      - name: Extract AVA Link from Karwan TV
         run: |
           python - <<EOF
           import requests
-          
-          # سەرچاوەکان بۆ دۆزینەوەی لێنک
-          sources = [
-              "https://raw.githubusercontent.com/Kurdish-IPTV/Sport/main/list.m3u",
-              "https://iptv-org.github.io/iptv/languages/kur.m3u"
-          ]
-          
-          final_content = "#EXTM3U\n"
-          
-          for url in sources:
-              try:
-                  r = requests.get(url, timeout=10)
-                  if r.status_code == 200:
-                      lines = r.text.split('\n')
-                      for i in range(len(lines)):
-                          # لێرەدا دەتوانیت ناوی هەر کەناڵێکی تر زیاد بکەیت
-                          target_channels = ["AVA Sport", "beIN Sports", "Falcon", "Rudaw"]
-                          if any(name in lines[i] for name in target_channels):
-                              final_content += lines[i] + "\n" + lines[i+1] + "\n"
-              except:
-                  continue
-          
-          # پاشەکەوتکردنی فایلەکە
-          with open("koyar.m3u", "w") as f:
-              f.write(final_content)
+          import re
+
+          url = "https://karwan.tv/ava-sport/"
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+          }
+
+          try:
+              # ١. چوونە ناو سایتەکە
+              response = requests.get(url, headers=headers, timeout=20)
+              content = response.text
+              
+              # ٢. گەڕان بەدوای لێنکی m3u8 لەناو کۆدی سایتەکەدا
+              # ئەمە لێنکە ڕاستەقینەکە دەدۆزێتەوە تەنانەت ئەگەر تۆکنیشی هەبێت
+              links = re.findall(r'https?://[^\s"\'<>]*\.m3u8[^\s"\'<>]*', content)
+              
+              if links:
+                  # یەکەم لێنک وەردەگرین کە هی کەناڵەکەیە
+                  final_link = links[0]
+                  
+                  with open("koyar.m3u", "w") as f:
+                      f.write("#EXTM3U\n")
+                      f.write("#EXTINF:-1, AVA Sport (Karwan TV Source)\n")
+                      f.write(final_link + "\n")
+                  print(f"سەرکەوتوو بوو! لێنکەکە دۆزرایەوە: {final_link}")
+              else:
+                  print("هیچ لێنکێک نەدۆزرایەوە")
+          except Exception as e:
+              print(f"هەڵە ڕوویدا: {e}")
           EOF
 
-      - name: Push Updates
+      - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Auto-update every 30 mins" || exit 0
+          git commit -m "Auto-scraped from Karwan TV" || exit 0
           git push
