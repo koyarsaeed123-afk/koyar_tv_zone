@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-logo="https://i.imgur.com/Zo3IWOn.png" group-title="News",Rudaw TV (1080p)
-https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
+#EXTINF:-1, AVA Sport (Stable)
+https://p-9-1.as.iptv.ovh/AVA-Sport/index.m3u8
