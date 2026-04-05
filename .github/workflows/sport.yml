@@ -1,49 +1,27 @@
-name: Karwan TV AVA Scraper
+name: Fixed AVA Scraper
 on:
   schedule:
     - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
-  scrape:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Extract Link
+      - name: Generate M3U
         run: |
-          python - <<EOF
-          import requests
-          import re
+          # لێرەدا لێنکێکی زۆر جێگیر دادەنێین کە لە زۆربەی نێتەکانی کوردستان کار دەکات
+          echo "#EXTM3U" > koyar.m3u
+          echo "#EXTINF:-1, AVA Sport HD (Stable)" >> koyar.m3u
+          echo "https://rim-hls.asiacell.com/live/ava_sport/index.m3u8" >> koyar.m3u
 
-          target_url = "https://karwan.tv/ava-sport/"
-          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-
-          try:
-              response = requests.get(target_url, headers=headers, timeout=20)
-              content = response.text
-              
-              # گەڕان بەدوای لێنکی m3u8 بە شێوەیەکی سادە
-              links = re.findall(r'https?://[^\s"\'<>]*\.m3u8', content)
-              
-              if links:
-                  final_link = links[0]
-                  with open("koyar.m3u", "w") as f:
-                      f.write("#EXTM3U\n#EXTINF:-1, AVA Sport (Auto)\n" + final_link + "\n")
-                  print("Link Found!")
-              else:
-                  # ئەگەر هیچی نەدۆزییەوە، لێنکە جێگیرەکە دادەنێین
-                  with open("koyar.m3u", "w") as f:
-                      f.write("#EXTM3U\n#EXTINF:-1, AVA Sport (Stable)\nhttps://p-9-1.as.iptv.ovh/AVA-Sport/index.m3u8\n")
-          except Exception as e:
-              print(f"Error: {e}")
-          EOF
-
-      - name: Commit and Push
+      - name: Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Fix syntax and update link" || exit 0
+          git commit -m "Updated to Stable Source" || exit 0
           git push
