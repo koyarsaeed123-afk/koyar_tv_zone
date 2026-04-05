@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1, AVA Sport HD (New)
-http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVoXRTPyxnokaMpkYMGhVcIjV__hi__tR6p4j__hi____ih____hi__XhrkGeKHyPi2RVpCb__hi__CDS6pmps4ptvhKzeb__ih__5GjSj6QFydwR__ih__5ZFp0IG08t__ih__B3waPMRes__ih__FPxm__ih__LI__hi__QbT9fApXtuhYe9g3Ygj7J1qZH8Ffjv3tQLMm4OF80kMbNiC2__ih__3zshh9qkTs3mpxS4RhK2mclDRSeY44EDuk=---/cache/AVA-Sport-HD-LB/master.m3u8
+#EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-logo="https://i.imgur.com/Zo3IWOn.png" group-title="News",Rudaw TV (1080p)
+https://svs.itworkscdn.net/rudawlive/rudawlive.smil/playlist.m3u8
