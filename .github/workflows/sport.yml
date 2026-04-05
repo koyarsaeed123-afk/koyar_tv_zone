@@ -1,0 +1,10 @@
+name: Update My IPTV
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Action is working!"
