@@ -1,24 +1,51 @@
-name: Update My IPTV
+name: Auto IPTV Scraper
 on:
+  schedule:
+    - cron: '*/30 * * * *' # ئەمە واتە هەموو ٣٠ خولەک جارێک (نیو کاتژمێر)
   workflow_dispatch:
 
 jobs:
-  build:
+  update_list:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Create M3U File
+      - name: Run Python Scraper
         run: |
-          echo "#EXTM3U" > koyar.m3u
-          echo "#EXTINF:-1, AVA Sport HD (New)" >> koyar.m3u
-          echo "http://104.160.15.53/lbengine/+ph/z8cSQ4W__ih__AeteLsz__hi__oYNcG7Zj7hQRm1uIcH__hi__S7mh__ih__8seMioRm0W__hi__2jQLZZythUM2MXk9s__hi__uUURmvDKZk9u2sCL__ih__sFaUvSgcWklZJ9enRnIVoXRTPyxnokaMpkYMGhVcIjV__hi__tR6p4j__hi____ih____hi__XhrkGeKHyPi2RVpCb__hi__CDS6pmps4ptvhKzeb__ih__5GjSj6QFydwR__ih__5ZFp0IG08t__ih__B3waPMRes__ih__FPxm__ih__LI__hi__QbT9fApXtuhYe9g3Ygj7J1qZH8Ffjv3tQLMm4OF80kMbNiC2__ih__3zshh9qkTs3mpxS4RhK2mclDRSeY44EDuk=---/cache/AVA-Sport-HD-LB/master.m3u8" >> koyar.m3u
+          python - <<EOF
+          import requests
+          
+          # سەرچاوەکان بۆ دۆزینەوەی لێنک
+          sources = [
+              "https://raw.githubusercontent.com/Kurdish-IPTV/Sport/main/list.m3u",
+              "https://iptv-org.github.io/iptv/languages/kur.m3u"
+          ]
+          
+          final_content = "#EXTM3U\n"
+          
+          for url in sources:
+              try:
+                  r = requests.get(url, timeout=10)
+                  if r.status_code == 200:
+                      lines = r.text.split('\n')
+                      for i in range(len(lines)):
+                          # لێرەدا دەتوانیت ناوی هەر کەناڵێکی تر زیاد بکەیت
+                          target_channels = ["AVA Sport", "beIN Sports", "Falcon", "Rudaw"]
+                          if any(name in lines[i] for name in target_channels):
+                              final_content += lines[i] + "\n" + lines[i+1] + "\n"
+              except:
+                  continue
+          
+          # پاشەکەوتکردنی فایلەکە
+          with open("koyar.m3u", "w") as f:
+              f.write(final_content)
+          EOF
 
-      - name: Commit and Push
+      - name: Push Updates
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Updated with Fresh AVA Link" || exit 0
+          git commit -m "Auto-update every 30 mins" || exit 0
           git push
