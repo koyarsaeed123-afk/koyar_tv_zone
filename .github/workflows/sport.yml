@@ -17,42 +17,25 @@ jobs:
           import requests
           import re
 
-          # سایتی کاروان تیڤی
           target_url = "https://karwan.tv/ava-sport/"
-          headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-              "Referer": "https://karwan.tv/"
-          }
+          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
           try:
-              # ١. وەرگرتنی ناوەڕۆکی سایتەکە
               response = requests.get(target_url, headers=headers, timeout=20)
               content = response.text
               
-              # ٢. گەڕان بەدوای لێنکەکان (بە تایبەت ئەوانەی کە بە m3u8 کۆتایی دێن و لەناو سکریپتدان)
-              # زۆربەی کات لێنکەکان لەناو 'file' یان 'source' دان
-              found_links = re.findall(r'(https?://[^\s"\'<>]*\.m3u8[^\s"\'<> ]*)', content)
+              # گەڕان بەدوای لێنکی m3u8 بە شێوەیەکی سادە
+              links = re.findall(r'https?://[^\s"\'<>]*\.m3u8', content)
               
-              if not found_links:
-                  # ئەگەر لێنکی تەواوی نەدۆزییەوە، بەدوای لێنکی ناوخۆیی (Relative) دەگەڕێین
-                  found_links = re.findall(r'["\'](/[^"\']*\.m3u8[^"\']*)["\']', content)
-                  found_links = ["https://karwan.tv" + l for l in found_links]
-
-              if found_links:
-                  # پاککردنەوەی لێنکەکە لە هەر نووسراوێکی زیادە
-                  final_link = found_links[0].replace('\\', '')
-                  
+              if links:
+                  final_link = links[0]
                   with open("koyar.m3u", "w") as f:
-                      f.write("#EXTM3U\n")
-                      f.write("#EXTINF:-1, AVA Sport (Karwan TV)\n")
-                      f.write(final_link + "\n")
-                  print(f"سەرکەوتوو بوو: {final_link}")
+                      f.write("#EXTM3U\n#EXTINF:-1, AVA Sport (Auto)\n" + final_link + "\n")
+                  print("Link Found!")
               else:
-                  # ئەگەر هەر نەبوو، لێنکە جێگیرەکە وەک یەدەگ دادەنێین بۆ ئەوەی فایلەکە بەتاڵ نەبێت
+                  # ئەگەر هیچی نەدۆزییەوە، لێنکە جێگیرەکە دادەنێین
                   with open("koyar.m3u", "w") as f:
-                      f.write("#EXTM3U\n#EXTINF:-1, AVA Sport (Fallback)\nhttps://p-9-1.as.iptv.ovh/AVA-Sport/index.m3u8\n")
-                  print("لێنکەکە لەناو کۆدەکەدا دیار نییە، یەدەگ دانرا.")
-
+                      f.write("#EXTM3U\n#EXTINF:-1, AVA Sport (Stable)\nhttps://p-9-1.as.iptv.ovh/AVA-Sport/index.m3u8\n")
           except Exception as e:
               print(f"Error: {e}")
           EOF
@@ -62,5 +45,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add koyar.m3u
-          git commit -m "Scrape effort from Karwan TV" || exit 0
+          git commit -m "Fix syntax and update link" || exit 0
           git push
