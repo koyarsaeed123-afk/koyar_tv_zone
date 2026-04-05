@@ -1,10 +1,27 @@
 name: Update My IPTV
 on:
-  workflow_dispatch:
+  workflow_dispatch: # ئەمە ڕێگەت دەدات بە دەست ئیشی پێ بکەیت
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello World
-        run: echo "Action is working!"
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create M3U File
+        run: |
+          # لێرەدا فایلەکە دروست دەکەین بە لێنکە جێگیرەکان
+          echo "#EXTM3U" > koyar.m3u
+          echo "#EXTINF:-1, AVA Sport HD" >> koyar.m3u
+          echo "https://p-9-1.as.iptv.ovh/AVA-Sport/index.m3u8" >> koyar.m3u
+          echo "#EXTINF:-1, beIN Sports 1" >> koyar.m3u
+          echo "http://185.105.101.42:80/live/sport1/index.m3u8" >> koyar.m3u
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add koyar.m3u
+          git commit -m "Step 2: Add Sport Links" || exit 0
+          git push
