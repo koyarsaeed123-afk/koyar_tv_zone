@@ -133,3 +133,5 @@ https://next.badinan.xyz/nexttv/FHD/chunklist_w2146685998.m3u8
 https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 #EXTINF:0 CUID="8648" tvg-name="ZAROK TV" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="KURDISH ",ZAROK TV
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
+#EXTINF:0 tvg-name="NRT News" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMSlxOiOoaNXsHHlQbLM_p_4mtvvlHRCsfejfzdidR42CpNGRGrdXpkqG&s=10" group-title="KURDISH ",NRT News
+https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8
