@@ -135,3 +135,445 @@ https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:0 tvg-name="NRT News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/NRT_TV.png" group-title="KURDISH ",NRT News
 https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8
+#EXTINF:0,Kurdistan TV
+#EXTGRP:unsorted
+https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/chunklist.m3u8
+#EXTINF:0,Rudaw TV
+#EXTGRP:unsorted
+https://live.rudaw.net/hls/rudaw-tv/master.m3u8
+#EXTINF:0,Kurdistan 24 News
+#EXTGRP:unsorted
+https://d1x82nydcxndze.cloudfront.net/live/index.m3u8#46f044f9941e0793ea8e7f5871d0599aaf5da699fd9ca23842b09671c6baf8a8
+#EXTINF:0,AVA MEDIA
+#EXTGRP:unsorted
+http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
+#EXTINF:0,AVA Series Persian
+#EXTGRP:unsorted
+https://avaserieshls.wns.live/hls/stream.m3u8
+#EXTINF:0,Kurdsat News
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
+#EXTINF:0,Channel 8
+#EXTGRP:unsorted
+https://live.channel8.com/Channel8-Kurdish/index.m3u8
+#EXTINF:0,GK  TV
+#EXTGRP:unsorted
+https://live.host247.net/gk/gksat/chunklist_w615970821.m3u8
+#EXTINF:0,GK+Plus
+#EXTGRP:unsorted
+https://live.host247.net/gk/gkplus/playlist.m3u8
+#EXTINF:0,NRT News
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8
+#EXTINF:0,Payam TV
+#EXTGRP:unsorted
+https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
+#EXTINF:0,Kirkuk  Tv
+#EXTGRP:unsorted
+https://live.kirkuklive.live/hls/stream/index.m3u8
+#EXTINF:0,Shams TV AR
+#EXTGRP:unsorted
+https://stream.shams.tv/hls/stream.m3u8#515c4e58fb0a1c133f1b51c22d2cce0ef61286a50bdb37220ba40ebbdc0dad03
+#EXTINF:0,ZAGROS TV AR
+#EXTGRP:unsorted
+https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/chunklist.m3u8
+#EXTINF:0,MMN News
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdnews/playlist.m3u8
+#EXTINF:0,NÛçê TV
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
+#EXTINF:0,Welat TV
+#EXTGRP:unsorted
+https://stream.badinan.xyz/welat/tv/playlist.m3u8
+#EXTINF:0,WAAR TV
+#EXTGRP:unsorted
+https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
+#EXTINF:0,Kurdsat
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD-avc1_2500000=10002.m3u8
+#EXTINF:0,SORAN TV
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/SoranEntertainment/playlist.m3u8
+#EXTINF:0,Denge Zelalدەنگێ زەلال
+#EXTGRP:unsorted
+https://dengetv.ozelip.com:3143/live/dengelive.m3u8
+#EXTINF:0,Barin Family
+#EXTGRP:unsorted
+http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8
+#EXTINF:0,SOZ TV MOVIES
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8
+#EXTINF:0,Red TV
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/REDTV/playlist.m3u8
+#EXTINF:0,KHAK TV
+#EXTGRP:unsorted
+http://bblserver.ddns.net:1935/stream/khakhd/playlist.m3u8
+#EXTINF:0,Shna TV Folk
+#EXTGRP:unsorted
+http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
+#EXTINF:0,Halabja tv
+#EXTGRP:unsorted
+http://halabjatv.ddns.net:40/live/halabjatv/playlist.m3u8
+#EXTINF:0,Hormzyar
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
+#EXTINF:0,AVAR
+#EXTGRP:unsorted
+https://avr.host247.net/live/AvarTv/playlist.m3u8
+#EXTINF:0,Ranya city
+#EXTGRP:unsorted
+https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
+#EXTINF:0,Walla TV
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-wallatv88/wallatv88/chunks.m3u8
+#EXTINF:0,MIX Kurdy
+#EXTGRP:unsorted
+https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
+#EXTINF:0,STV
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-stv/stvone/chunks.m3u8
+#EXTINF:0,Ala Tv
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/ala-hd/playlist.m3u8
+#EXTINF:0,Zagros24
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/ZAGROS_24/HLS/ZAGROS_24.m3u8
+#EXTINF:0,DerinTV
+#EXTGRP:unsorted
+http://baskhd.ddns.net:40/live/Derin/index.m3u8?checkedby:kurdtv1
+#EXTINF:0,New Movies
+#EXTGRP:unsorted
+https://cdn.karwan.tv/bnar-movies/index.m3u8
+#EXTINF:0,MMN DRAMA
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhddrama/playlist.m3u8
+#EXTINF:0,MMN SHOW
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhddshow/playlist.m3u8
+#EXTINF:0,Barin Movies
+#EXTGRP:unsorted
+https://cdn.karwan.tv/barin-movies/index.m3u8
+#EXTINF:0,NEW Action
+#EXTGRP:unsorted
+https://cdn.karwan.tv/bnar-action/index.m3u8
+#EXTINF:0,INFINITY  TV
+#EXTGRP:unsorted
+https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
+#EXTINF:0,MMN ACTION
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdaction/playlist.m3u8
+#EXTINF:0,MMN MOVIES
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdmovies/playlist.m3u8
+#EXTINF:0,euro Kurd
+#EXTGRP:unsorted
+http://eurokurd.mymediapc.net:40/live/Eurokurd/playlist.m3u8
+#EXTINF:0,Jegr Media جەی میدیا
+#EXTGRP:unsorted
+http://jegrmediahussen.com:8088/JMedia/index.m3u8
+#EXTINF:0,Garyan Media
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-halabja88garyan/halabja88garyan/chunks.m3u8
+#EXTINF:0,4Kurd
+#EXTGRP:unsorted
+https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:0,KURD Channel
+#EXTGRP:unsorted
+https://kurdchhls.wns.live/hls/stream.m3u8
+#EXTINF:0,Alternative Shorai
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/ALTERNATIVE_SHORAI_TV/HLS/ALTERNATIVE_SHORAI_TV-avc1_1500000=10001.m3u8
+#EXTINF:0,STÊRK
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
+#EXTINF:0,Jin tv
+#EXTGRP:unsorted
+https://live.jintv.org/medialive/jintv.m3u8
+#EXTINF:0,Med Musîk
+#EXTGRP:unsorted
+http://54.36.110.140/live3/live3.m3u8
+#EXTINF:0,Ronahi
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8
+#EXTINF:0,Rojhelat TV
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/ROJHELAT/HLS/ROJHELAT-avc1_2500000=10002,mp4a_128000=20000.m3u8
+#EXTINF:0,Çira TV
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
+#EXTINF:0,Rojava
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
+#EXTINF:0,TRT kurdî کرمانجی
+#EXTGRP:unsorted
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:0,Rehber Turkish&Kurdish
+#EXTGRP:unsorted
+https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
+#EXTINF:0,MediaHaber Turkish&Kurdish
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/MEDYA_HABER/HLS/MEDYA_HABER.m3u8
+#EXTINF:0,AFARIN RADIO
+#EXTGRP:unsorted
+https://5dcabf026b188.streamlock.net:443/afarinTV/d1/livestream/playlist.m3u8
+#EXTINF:0,AFARIN Baxcha
+#EXTGRP:unsorted
+https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:0,AFARIN  TV
+#EXTGRP:unsorted
+https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:0,ONE KIDS
+#EXTGRP:unsorted
+http://217.76.62.187/hls/kids.m3u8
+#EXTINF:0,MMN KIDS
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdkids/playlist.m3u8
+#EXTINF:0,zarok tv SORANI
+#EXTGRP:unsorted
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:0,zarok tv kurmançi
+#EXTGRP:unsorted
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:0,SOZ TV
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-SOZ/SOZ/playlist.m3u8
+#EXTINF:0,SAN Quran TEST
+#EXTGRP:unsorted
+http://live20.bozztv.com/giatv/giatv-sozquran/sozquran/chunks.m3u8
+#EXTINF:0,Barin Quran
+#EXTGRP:unsorted
+http://baskhd.ddns.net:40/live/QURANHDTV/mono.m3u8
+#EXTINF:0,Amozhgary Academy
+#EXTGRP:unsorted
+https://app-live.org/live/a267c1b3/index.m3u8
+#EXTINF:0,Amozhgary
+#EXTGRP:unsorted
+https://app-live.org/live/3268334b/index.m3u8
+#EXTINF:0,Peshang TVپێشەنگ
+#EXTGRP:unsorted
+https://stream.forcaroo.com/stream/hls/desktop.m3u8
+#EXTINF:0,Bask TV
+#EXTGRP:unsorted
+http://baskhd.ddns.net:40/live/baskhd/playlist.m3u8
+#EXTINF:0,Farmoodaفەرموودە
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/FarmodaTV/playlist.m3u8
+#EXTINF:0,Bangawaz TV
+#EXTGRP:unsorted
+http://bangawaztv.ddns.net:40/live/bangawaztv/playlist.m3u8
+#EXTINF:0,ASHTI QURAN
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/AshtiTV/playlist.m3u8
+#EXTINF:0,IMK Quran
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/IMKQURANHD/playlist.m3u8
+#EXTINF:0,BASK PLUS
+#EXTGRP:unsorted
+http://baskhd2.ddns.net:1935/live/basktv/playlist.m3u8
+#EXTINF:0,MIHRAB TV
+#EXTGRP:unsorted
+http://baskhd.ddns.net:40/live/MihrabTV/playlist.m3u8
+#EXTINF:0,Mihrab Radio
+#EXTGRP:unsorted
+http://bblserver.ddns.net:1935/live/mihrabfm/playlist.m3u8
+#EXTINF:0,SHAR TV
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/SHARTV/playlist.m3u8
+#EXTINF:0,EMAN TV
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/emantv/playlist.m3u8
+#EXTINF:0,MMN QURAN
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdquran/chunklist.m3u8
+#EXTINF:0,ESRA2  TV
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-esra2hd_kamalblbas/esra2hd_kamalblbas/chunks.m3u8
+#EXTINF:0,ڕادیۆی سونەت
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-rsunnat/rsunnat/playlist.m3u8
+#EXTINF:0,القران الکریمQuranAlkareem
+#EXTGRP:unsorted
+http://82.212.74.5:8000/live/hls/2527.m3u8
+#EXTINF:0,البحرین القران الکریم
+#EXTGRP:unsorted
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
+#EXTINF:0,ESRA TV 1
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8
+#EXTINF:0,TEST Quran
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-Quran/Quran/playlist.m3u8
+#EXTINF:0,MTA INDONESIA  TV
+#EXTGRP:unsorted
+https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8
+#EXTINF:0,Rodja Indonesia TV
+#EXTGRP:unsorted
+https://rodjatv.com/rodjatv/live.m3u8
+#EXTINF:0,PRO Quran TV
+#EXTGRP:unsorted
+http://tv.ezanvaktipro.com/hls/quran.m3u8
+#EXTINF:0,Saudi Quran Radio
+#EXTGRP:unsorted
+https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8
+#EXTINF:0,Saudi Quran SD
+#EXTGRP:unsorted
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#EXTINF:0,Saudi Sunnah SD
+#EXTGRP:unsorted
+https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
+#EXTINF:0,Makkah TV
+#EXTGRP:unsorted
+https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+#EXTINF:0,رسول اللە   ــ   (کوردی ــ فارسی )
+#EXTGRP:unsorted
+http://avrstream.com:1935/live/rasoulallahtv/playlist.m3u8
+#EXTINF:0,TRT Diyanet
+#EXTGRP:unsorted
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8#725e6880edf0ef66b6a4ab
+#EXTINF:0,Peace Tv
+#EXTGRP:unsorted
+https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8?sid=ibXONI3JqkiC1e_jFJ68Ng#3798f05848206387d3e43513b906faf5f04b3e9b6c6b122a3089ca53
+#EXTINF:0,Madani TV EN
+#EXTGRP:unsorted
+https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8#42c5da4c29d968b9abe5c0
+#EXTINF:0,Madani TV Urdu
+#EXTGRP:unsorted
+https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8#6ea97c23906c4
+#EXTINF:0,Islamic Movies
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/pvod/208444/ssyoutube_online___Righteous_Sinner___Full_Muslim_Movie_Inspired_by_the_Tale_of_Barsisa_the_Monk_720p.mp4/playlist.m3u8
+#EXTINF:0,PraiadasGordas
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-Praiadasgordas/Praiadasgordas/playlist.m3u8
+#EXTINF:0,Zaytoon Nature
+#EXTGRP:unsorted
+https://barham.short.gy/VPTcoB.m3u8
+#EXTINF:0,NHK World Japan
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-ndtest/ndtest/playlist.m3u8
+#EXTINF:0,Karwan HD  Test
+#EXTGRP:unsorted
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+#EXTINF:0,MMN Documentary
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhddocumentary/playlist.m3u8
+#EXTINF:0,IlkeTV zazaki&Turkish
+#EXTGRP:unsorted
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:0,Komala  TV
+#EXTGRP:unsorted
+https://komhls.wns.live/hls/stream.m3u8
+#EXTINF:0,MMN SPORT
+#EXTGRP:unsorted
+http://mmn.mypsx.net:1935/live/mmnhdsport/media_w29500582_40502.m3u8
+#EXTINF:0,alkass 3
+#EXTGRP:unsorted
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:0,alkass4
+#EXTGRP:unsorted
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:0,alkass6
+#EXTGRP:unsorted
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+#EXTINF:0,persiana sport 2
+#EXTGRP:unsorted
+https://pepsi.abntv.live/hls/4spstream.m3u8
+#EXTINF:0,persiana sport 3
+#EXTGRP:unsorted
+https://pepsi3.abntv.live/hls/psp3.m3u8
+#EXTINF:0,Persiana sport 4
+#EXTGRP:unsorted
+https://pepsi4.abntv.live/hls/psp4.m3u8
+#EXTINF:0,Bein sport _esp
+#EXTGRP:unsorted
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:0,MUX Sport
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatvplayout7/giatv-209395/playlist.m3u8
+#EXTINF:0,Tom and jerry
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:0,bejoy kids
+#EXTGRP:unsorted
+https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8
+#EXTINF:0,MOON BUG
+#EXTGRP:unsorted
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:0,Zoomoo tv
+#EXTGRP:unsorted
+https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:0,Baby shark
+#EXTGRP:unsorted
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
+#EXTINF:0,NicktoonsBrazil
+#EXTGRP:unsorted
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:0,Rizhiy  TV  Рыжий
+#EXTGRP:unsorted
+http://31.148.48.15/Rizhiy/index.m3u8
+#EXTINF:0,Roya kids
+#EXTGRP:unsorted
+https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8
+#EXTINF:0,kartoon channel
+#EXTGRP:unsorted
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
+#EXTINF:0,Naruto Anime
+#EXTGRP:unsorted
+https://live20.bozztv.com/giatvplayout7/giatv-211970/playlist.m3u8
+#EXTINF:0,persiana Junior
+#EXTGRP:unsorted
+https://junhls.persiana.live/hls/stream.m3u8#566b817d3259ed6480e48402f3e09ca6ef2539c4a631a77b43dbb77389e34bad
+#EXTINF:0,Dej Radio
+#EXTGRP:unsorted
+https://rdejhls.wns.live/hls/stream.m3u8
+#EXTINF:0,الحدث
+#EXTGRP:unsorted
+https://av.alarabiya.net/alarabiapublish/alhadath_720p/chunks.m3u8#910dda9297379ab04e10a6ad245029e839873e0a4137a9ce5006a026c8ec6d0
+#EXTINF:0,AlMukalla Tv
+#EXTGRP:unsorted
+https://183.bozztv.com/giatv/giatv-almukallatv/almukallatv/playlist.m3u8
+#EXTINF:0,TRT TURK
+#EXTGRP:unsorted
+https://tv-trtturk.medya.trt.com.tr/master.m3u8#08616fb707a3adc91b4e4753d0c5dbeebdf324f6ddcd410f491ddf2339f42b9f
+#EXTINF:0,Haber Turk
+#EXTGRP:unsorted
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8#eac618d201a26c8437fcc766126db77d19f618d1b9b0a1f5d4ef9cc35ca613ef
+#EXTINF:0,Aaj Tak
+#EXTGRP:unsorted
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8#693a10cf76b71313175e0b77eb1d553ad5427fd9dd5b9ec0eb2dddc4b4ba78b9
+#EXTINF:0,Asia New Kerala
+#EXTGRP:unsorted
+https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8#3868b65d45c3139a0e75272fbe991ca7cdd0
+#EXTINF:0,Punjabi
+#EXTGRP:unsorted
+http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8#b55651e699afc245f51aa7d794862b4fdfdd01b5ffe230a51daaceb610449e2d
+#EXTINF:0,NDTV 24/7
+#EXTGRP:unsorted
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8#cf359f9d4cce7e5b8aa7c9006adc2ceff68b1f6f29bd231bfceca829dd5d0d87
+#EXTINF:0,Lahore News
+#EXTGRP:unsorted
+https://vcdn.dunyanews.tv/lahorelive/_definst_/ngrp:lnews_1_all/playlist.m3u8#045f06a82a70b7aa19ea7c6fe650d344b76762b2bfc7b28b0
+#EXTINF:0,Dunya News
+#EXTGRP:unsorted
+https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8#92a9bd673682fbd0cf90eb61e0460d84897509bf00516595681257d66b4469bb
+#EXTINF:0,INDIA TODAY
+#EXTGRP:unsorted
+https://feeds.intoday.in/hltapps/api/master.m3u8#2500509c880fd518e2b3288b1df019893e4763dbf2f25f46e2d76509a5c91312
+#EXTINF:0,ABN Sat
+#EXTGRP:unsorted
+https://mediaserver.abnvideos.com/streams/abnsat.m3u8
+#EXTINF:0,Test 02تێست دوو
+#EXTGRP:unsorted
+https://barham.short.gy/VPTcoB.m3u8
+#EXTINF:0,Test 4تێست چوار
+#EXTGRP:unsorted
+https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8
+#EXTINF:0,TEST28 ٢٨
+#EXTGRP:unsorted
+http://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8
+#EXTINF:0,Test ٣٠
+#EXTGRP:unsorted
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8#1697eb9739fd59d2f2f453cb37d6a5a5a7b98a83bb016afbd
+
