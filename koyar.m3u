@@ -151,5 +151,5 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/chunklist.m3u8
 http://mmn.mypsx.net:1935/live/mmnhdnews/playlist.m3u8
 #EXTINF:0,NÛçê TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
-#EXTINF:0, tvg-name=AVA Sport tvg-logo="https://i.postimg.cc/Kc1GmCF6/8-FEE8721-F43-C-4-AE5-9-ED7-FE4-CC8-BE7725.png"
+#EXTINF:0, tvg-name= AVA Sport tvg-logo= "https://i.postimg.cc/Kc1GmCF6/8-FEE8721-F43-C-4-AE5-9-ED7-FE4-CC8-BE7725.png"
 http://intvplus.com:8080/live/804881794591/6a7311637597a/169.ts
