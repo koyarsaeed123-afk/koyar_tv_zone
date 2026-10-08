@@ -41,7 +41,7 @@ http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 http://rawshan.ddns.net:1935/live/rawshantv/playlist.m3u8
 #EXTINF:0 tvg-name="ZAGROS TV" tvg-logo="https://i.postimg.cc/WpMq857p/Pics-Art-25-09-09-14-49-31-102.png" group-title="NEWS ",ZAGROS TV
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/chunklist_w469474030_b1700000_sleng_t64MTA4MHA=.m3u8
-#EXTINF:0 tvg-name="zaroktv" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="KURDISH ",zaroktv
+#EXTINF:0 tvg-name="zaroktv" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="KIDS ",zaroktv
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:0 tvg-name=" Bask Plus" tvg-logo="https://i.postimg.cc/6pgykLgw/photo-2026-02-23-11-25-56.jpg" group-title="KURDISH ", Bask Plus
 http://baskhd2.ddns.net:1935/live/basktv/playlist.m3u8
@@ -61,9 +61,9 @@ http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 https://media2.streambrothers.com:1936/8218/8218/kurdtv1.m3u8
 #EXTINF:0 tvg-name="AFRIN TV FHD" tvg-logo="https://i.postimg.cc/mTrjSq4N/baxcha.png" group-title="KURDISH ",AFRIN TV FHD
 http://afarintv.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
-#EXTINF:0 tvg-name="AFRIN باخچە" tvg-logo="https://i.postimg.cc/yVGD4WJN/BAXCHA.png" group-title="KURDISH ",AFRIN باخچە
+#EXTINF:0 tvg-name="AFRIN باخچە" tvg-logo="https://i.postimg.cc/yVGD4WJN/BAXCHA.png" group-title="KIDS ",AFRIN باخچە
 http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
-#EXTINF:0 tvg-name="AFRIN KIDS" tvg-logo="https://i.postimg.cc/2zyx7bRj/AKID.png" group-title="KURDISH ",AFRIN KIDS
+#EXTINF:0 tvg-name="AFRIN KIDS" tvg-logo="https://i.postimg.cc/2zyx7bRj/AKID.png" group-title="KIDS ",AFRIN KIDS
 http://afarintv2.flashmediacast.com:1935/afarinTV/d1/livestream/HawezHD.m3u8
 #EXTINF:0 tvg-name="Kirkuk TV" tvg-logo="https://i.postimg.cc/CYWrW24y/krd.png" group-title="NEWS ",Kirkuk TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
@@ -95,7 +95,7 @@ http://mmn.mypsx.net:1935/live/mmnhdmovies/playlist.m3u8
 http://mmn.mypsx.net:1935/live/mmnhddocumentary/playlist.m3u8
 #EXTINF:0 tvg-name="MMN ACTION" tvg-logo="https://i.postimg.cc/1myj1tH7/MMNACT.png" group-title="KURDISH ",MMN ACTION
 http://mmn.mypsx.net:1935/live/mmnhdaction/playlist.m3u8
-#EXTINF:0 tvg-name="MMN KIDS" tvg-logo="https://i.postimg.cc/GdS0dL0X/mmnkid.png" group-title="KURDISH ",MMN KIDS
+#EXTINF:0 tvg-name="MMN KIDS" tvg-logo="https://i.postimg.cc/GdS0dL0X/mmnkid.png" group-title="KIDS ",MMN KIDS
 http://mmn.mypsx.net:1935/live/mmnhdkids/playlist.m3u8
 #EXTINF:0 tvg-name="MMN QURAN" tvg-logo="https://i.postimg.cc/08wJZLfh/quran.png" group-title="ISLAMIC ",MMN QURAN
 http://mmn.mypsx.net:1935/live/mmnhdquran/playlist.m3u8
@@ -121,19 +121,19 @@ http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
 #EXTINF:0 tvg-name="JIN TV" tvg-logo="https://i.postimg.cc/sVrvx0Gg/JIN.png" group-title="KURDISH ",JIN TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:0 tvg-name="KIDCO" tvg-logo="https://i.postimg.cc/37q1knCP/KIDCO.png" group-title="KURDISH ",KIDCO
+#EXTINF:0 tvg-name="KIDCO" tvg-logo="https://i.postimg.cc/37q1knCP/KIDCO.png" group-title="KIDS ",KIDCO
 http://avrstream.com:1935/live/kidcohd/playlist.m3u8
 #EXTINF:0 tvg-name="NEXT TV" tvg-logo="https://i.postimg.cc/MZGBV0bD/NEXT.png" group-title="KURDISH ",NEXT TV
 https://next.badinan.xyz/nexttv/FHD/chunklist_w2146685998.m3u8
 #EXTINF:0 tvg-name="TRT KURDI" tvg-logo="https://i.postimg.cc/Skh5bzhg/TRT.png" group-title="KURDISH ",TRT KURDI
 https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
-#EXTINF:0 tvg-name="ZAROK TV" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="KURDISH ",ZAROK TV
+#EXTINF:0 tvg-name="ZAROK TV" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="KIDS ",ZAROK TV
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:0 tvg-name="NRT News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/NRT_TV.png" group-title="NEWS ",NRT News
 https://hlspackager.akamaized.net/live/DB/NRT_HD/HLS/NRT_HD-avc1_2500000=10002,mp4a_128000=20000.m3u8
-#EXTINF:0 group-title="KURDISH ",GK  TV
+#EXTINF:0 group-title="NEWS ",GK  TV
 https://live.host247.net/gk/gksat/chunklist_w615970821.m3u8
-#EXTINF:0 group-title="KURDISH ",GK+Plus
+#EXTINF:0 group-title="NEWS ",GK+Plus
 https://live.host247.net/gk/gkplus/playlist.m3u8
 #EXTINF:0 group-title="NEWS ",Payam TV
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
