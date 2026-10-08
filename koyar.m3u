@@ -5,7 +5,7 @@ https://app-live.org/live/3268334b/index.m3u8
 https://app-live.org/live/a267c1b3/index.m3u8
 #EXTINF:0 tvg-name="BASK ۞" tvg-logo="https://i.postimg.cc/CxFf6zdt/photo-2026-02-16-06-41-54.jpg" group-title="KURDISH ",baskhd۞
 http://baskhd.ddns.net:40/live/baskhd/playlist.m3u8
-#EXTINF:0 tvg-name="Rawshan hd ۞" tvg-logo="https://i.postimg.cc/pTFSvz3m/96-DA4-F87-FCAE-4-AEB-9-F82-B26663-B06539.png" group-title="KURDISH ",Rawshan hd۞
+#EXTINF:0 tvg-name="Rawshan hd ۞" tvg-logo="https://i.postimg.cc/pTFSvz3m/96-DA4-F87-FCAE-4-AEB-9-F82-B26663-B06539.png" group-title="ISLAMIC ",Rawshan hd۞
 http://rawshan.ddns.net:1935/live/rawshantv/playlist.m3u8
 #EXTINF:0 tvg-name="EMAN ۞" tvg-logo="https://i.postimg.cc/yB4Bc8M3/eman.png" group-title="ISLAMIC ",EMAN۞
 http://avrstream.com:1935/live/emantv/playlist.m3u8
@@ -35,10 +35,6 @@ https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 http://avrstream.com:1935/live/SoranEntertainment/playlist.m3u8
 #EXTINF:0 tvg-name="KURDISTAN TV" tvg-logo="https://i.postimg.cc/Wjcg6dk3/KDTV.png" group-title="NEWS ",KURDISTAN TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/chunklist_w1790905875_b1700000_sleng_t64MTA4MHA=.m3u8
-#EXTINF:0 tvg-name="shnatv" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",shnatv
-http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
-#EXTINF:0 tvg-name="shnatv" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",shnatv
-http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 #EXTINF:0 tvg-name="shnatv" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",shnatv
 http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 #EXTINF:0 tvg-name="SHNA TV QURAN" tvg-logo="https://i.postimg.cc/Gc5XVBZ9/SHNAQ.png" group-title="ISLAMIC ",SHNA TV QURAN
@@ -85,7 +81,7 @@ http://avrstream.com:1935/live/Mix-kurdy/playlist.m3u8
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
 #EXTINF:0 tvg-name="rasoulallahtv" tvg-logo="https://i.postimg.cc/pxVcfSY2/HORMZAR.png" group-title="ISLAMIC ",rasoulallahtv
 http://avrstream.com:1935/live/rasoulallahtv/playlist.m3u8
-#EXTINF:0 tvg-name="SHAR TV" tvg-logo="https://i.postimg.cc/nxR9J5Ph/SHAR.png" group-title="KURDISH ",SHAR TV
+#EXTINF:0 tvg-name="SHAR TV" tvg-logo="https://i.postimg.cc/nxR9J5Ph/SHAR.png" group-title="ISLAMIC ",SHAR TV
 http://avrstream.com:1935/live/SHARTV/playlist.m3u8
 #EXTINF:0 tvg-name="ALA" tvg-logo="https://i.postimg.cc/54qVhXT2/ALA.png" group-title="KURDISH ",ALA
 http://avrstream.com:1935/live/ala-hd/playlist.m3u8
