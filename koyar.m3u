@@ -151,15 +151,15 @@ https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
 http://intvplus.com:8080/live/804881794591/6a7311637597a/169.ts
 #EXTINF:0 tvg-name="Asharq News" tvg-logo="https://asharq.com/_next/static/media/asharqLogo.00f9b3ef.svg" group-title="NEWS ",Asharq News
 https://live-news.asharq.com/asharq_1080p30.m3u8
-#EXTINF:0 tvg-name="al jazeera 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEAUZ_ErdeYOPhVRkygUsE1kurF3mDgxGNtdu93hijuw&s=10" group-title="NEWS ",al jazeera 2
+#EXTINF:0 tvg-name="al jazeera 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLVPfJmGCNgk396Jq0USecSG5HNCmV_cRoh2NARXC9w&s=10" group-title="NEWS ",al jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/03.m3u8
-#EXTINF:0 tvg-name="Al Jazeera" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLVPfJmGCNgk396Jq0USecSG5HNCmV_cRoh2NARXC9w&s=10" group-title="NEWS ",Al Jazeera
+#EXTINF:0 tvg-name="Al Jazeera" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEAUZ_ErdeYOPhVRkygUsE1kurF3mDgxGNtdu93hijuw&s=10" group-title="NEWS ",Al Jazeera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 #EXTINF:0 tvg-name="RT Arabic" tvg-logo="https://ar.russiatoday.com/static/projects/assets/img/logo-main.svg" group-title="NEWS ",RT Arabic
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 #EXTINF:0 tvg-name="Al Arabiya" tvg-logo="https://images.seeklogo.com/logo-png/22/1/al-arabiya-news-channel-logo-png_seeklogo-221044.png" group-title="NEWS ",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8
-#EXTINF:0 tvg-name="Al Sharqiya" tvg-logo="https://www.alsharqiya.com/Content/web-assets/img/logo.png" group-title="NEWS ",Al Sharqiya
+#EXTINF:0 tvg-name="Al Sharqiya" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJ7TVX20QdGd68ghlYKJNXZYqcLXUcC1upidrNydicg&s=10" group-title="NEWS ",Al Sharqiya
 https://indexforce.com/newshighres/mystream/chunklist_w751328493.m3u8
-#EXTINF:0 tvg-name="Al Hadath" tvg-logo="https://en.wikipedia.org/wiki/Al_Hadath#/media/File:Al_Hadath_TV_logo_2023.svg" group-title="NEWS ",Al Hadath
+#EXTINF:0 tvg-name="Al Hadath" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKMsxHH1lVUALNte6R5mFolUavQNkWxVkPgI78ZjerA&s=10" group-title="NEWS ",Al Hadath
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
