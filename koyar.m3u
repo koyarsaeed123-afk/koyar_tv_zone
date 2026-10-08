@@ -59,7 +59,7 @@ http://baskhd.ddns.net:40/live/MihrabTV/playlist.m3u8
 http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 #EXTINF:0 tvg-name="PAYAM TV" tvg-logo="https://i.postimg.cc/tC3M34tL/Pics-Art-25-08-01-14-49-15-229.png" group-title="NEWS ",PAYAM TV
 https://media2.streambrothers.com:1936/8218/8218/kurdtv1.m3u8
-#EXTINF:0 tvg-name="AFRIN TV FHD" tvg-logo="https://i.postimg.cc/mTrjSq4N/baxcha.png" group-title="KURDISH ",AFRIN TV FHD
+#EXTINF:0 tvg-name="AFRIN TV FHD" tvg-logo="https://i.postimg.cc/mTrjSq4N/baxcha.png" group-title="Kids",AFRIN TV FHD
 http://afarintv.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
 #EXTINF:0 tvg-name="AFRIN باخچە" tvg-logo="https://i.postimg.cc/yVGD4WJN/BAXCHA.png" group-title="Kids",AFRIN باخچە
 http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
