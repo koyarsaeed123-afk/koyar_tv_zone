@@ -3,7 +3,7 @@
 https://app-live.org/live/3268334b/index.m3u8
 #EXTINF:0 tvg-name="ئەکادیمیای ئامۆژگاری  ۞" tvg-logo="https://i.postimg.cc/Dvc3yP7n/amojgari.png" group-title="ISLAMIC ",۞ئەکادیمیای ئامۆژگاری
 https://app-live.org/live/a267c1b3/index.m3u8
-#EXTINF:0 tvg-name="BASK ۞" tvg-logo="https://i.postimg.cc/CxFf6zdt/photo-2026-02-16-06-41-54.jpg" group-title="KURDISH ",baskhd۞
+#EXTINF:0 tvg-name="BASK ۞" tvg-logo="https://i.postimg.cc/CxFf6zdt/photo-2026-02-16-06-41-54.jpg" group-title="ISLAMIC ",baskhd۞
 http://baskhd.ddns.net:40/live/baskhd/playlist.m3u8
 #EXTINF:0 tvg-name="Rawshan hd ۞" tvg-logo="https://i.postimg.cc/pTFSvz3m/96-DA4-F87-FCAE-4-AEB-9-F82-B26663-B06539.png" group-title="ISLAMIC ",Rawshan hd۞
 http://rawshan.ddns.net:1935/live/rawshantv/playlist.m3u8
@@ -41,7 +41,7 @@ http://rawshan.ddns.net:1935/live/rawshantv/playlist.m3u8
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/chunklist_w469474030_b1700000_sleng_t64MTA4MHA=.m3u8
 #EXTINF:0 tvg-name="zaroktv" tvg-logo="https://i.postimg.cc/J8x0qQhq/ZARO.png" group-title="Kids",zaroktv
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
-#EXTINF:0 tvg-name=" Bask Plus" tvg-logo="https://i.postimg.cc/6pgykLgw/photo-2026-02-23-11-25-56.jpg" group-title="KURDISH ", Bask Plus
+#EXTINF:0 tvg-name=" Bask Plus" tvg-logo="https://i.postimg.cc/6pgykLgw/photo-2026-02-23-11-25-56.jpg" group-title="ISLAMIC ", Bask Plus
 http://baskhd2.ddns.net:1935/live/basktv/playlist.m3u8
 #EXTINF:0 tvg-name="ISHTAR TV" tvg-logo="https://i.postimg.cc/gzCxv2tk/ISHTAR.png" group-title="KURDISH ",ISHTAR TV
 http://ishtartv.badinan.xyz:1935/live/iShtarHD/playlist.m3u8
@@ -65,6 +65,8 @@ http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
 http://afarintv2.flashmediacast.com:1935/afarinTV/d1/livestream/HawezHD.m3u8
 #EXTINF:0 tvg-name="Kirkuk TV" tvg-logo="https://i.postimg.cc/CYWrW24y/krd.png" group-title="NEWS ",Kirkuk TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
+#EXTINF:0 tvg-name="SHNA HD" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",SHNA HD
+http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 #EXTINF:0 tvg-name="sozetv" tvg-logo="https://i.postimg.cc/xfDMt1tB/SOZ.png" group-title="ISLAMIC ",sozetv
 https://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8
 #EXTINF:0 tvg-name="infinity-tv" tvg-logo="https://i.postimg.cc/CYh5Hjwq/infinity.png" group-title="KURDISH ",infinity-tv
@@ -129,7 +131,7 @@ https://hlspackager.akamaized.net/live/DB/NRT_HD/HLS/NRT_HD-avc1_2500000=10002,m
 https://live.host247.net/gk/gksat/chunklist_w615970821.m3u8
 #EXTINF:0 group-title="NEWS ",GK+Plus
 https://live.host247.net/gk/gkplus/playlist.m3u8
-#EXTINF:0 group-title="KURDISH ",Shams TV AR
+#EXTINF:0 tvg-name="Shams TV AR" tvg-logo="data:image/jpeg;base64,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" group-title="NEWS ",Shams TV AR
 https://stream.shams.tv/hls/stream.m3u8#515c4e58fb0a1c133f1b51c22d2cce0ef61286a50bdb37220ba40ebbdc0dad03
 #EXTINF:0 group-title="NEWS ",NÛçê TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
