@@ -65,13 +65,11 @@ http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
 http://afarintv2.flashmediacast.com:1935/afarinTV/d1/livestream/HawezHD.m3u8
 #EXTINF:0 tvg-name="Kirkuk TV" tvg-logo="https://i.postimg.cc/CYWrW24y/krd.png" group-title="NEWS ",Kirkuk TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
-#EXTINF:0 tvg-name="SHNA HD" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",SHNA HD
-http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 #EXTINF:0 tvg-name="sozetv" tvg-logo="https://i.postimg.cc/xfDMt1tB/SOZ.png" group-title="ISLAMIC ",sozetv
 https://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8
 #EXTINF:0 tvg-name="infinity-tv" tvg-logo="https://i.postimg.cc/CYh5Hjwq/infinity.png" group-title="KURDISH ",infinity-tv
 https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-name="mix kurdi" group-title="KURDISH ",mix kurdi
+#EXTINF:0 tvg-name="mix kurdi" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNpQZ-rmU0S-7vGT7cXcs7lq7Lnc4EwMPKfkVE9fwGSQ&s=10" group-title="KURDISH ",mix kurdi
 http://avrstream.com:1935/live/Mix-kurdy/playlist.m3u8
 #EXTINF:0 tvg-name="HORMIZAIR" tvg-logo="https://i.postimg.cc/bqB96HNL/HORNZ.png" group-title="KURDISH ",HORMIZAIR
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
@@ -127,13 +125,13 @@ https://tv-trtkurdi.medya.trt.com.tr/master_720.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:0 tvg-name="NRT News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/NRT_TV.png" group-title="NEWS ",NRT News
 https://hlspackager.akamaized.net/live/DB/NRT_HD/HLS/NRT_HD-avc1_2500000=10002,mp4a_128000=20000.m3u8
-#EXTINF:0 group-title="NEWS ",GK  TV
+#EXTINF:0 tvg-name="GK TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmroPUCN7XhD08jt4Oa5_qWj9a9lddy_e57iJrUulSkw&s" group-title="NEWS ",GK TV
 https://live.host247.net/gk/gksat/chunklist_w615970821.m3u8
-#EXTINF:0 group-title="NEWS ",GK+Plus
+#EXTINF:0 tvg-name="GK+Plus" tvg-logo="http://widget.ottplayer.tv/upictures/995d7c47-ebe2-48b3-a123-000812f0e686.png" group-title="NEWS ",GK+Plus
 https://live.host247.net/gk/gkplus/playlist.m3u8
 #EXTINF:0 tvg-name="Shams TV AR" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4W2Uh_4R1vz4AcfYU5rsmQ96EFr2PLK1Mh_P6BRfmw&s" group-title="NEWS ",Shams TV AR
 https://stream.shams.tv/hls/stream.m3u8#515c4e58fb0a1c133f1b51c22d2cce0ef61286a50bdb37220ba40ebbdc0dad03
-#EXTINF:0 group-title="NEWS ",NÛçê TV
+#EXTINF:0 tvg-name="NÛçê TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzkz6gXsCHB1vjyhVKdvnNnHQ79Vo9qYkmroEp99kZQ&s" group-title="NEWS ",NÛçê TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
 #EXTINF:0 tvg-name="Asharq News" tvg-logo="https://asharq.com/_next/static/media/asharqLogo.00f9b3ef.svg" group-title="NEWS ",Asharq News
 https://live-news.asharq.com/asharq_1080p30.m3u8
