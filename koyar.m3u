@@ -135,16 +135,8 @@ https://hlspackager.akamaized.net/live/DB/NRT_HD/HLS/NRT_HD-avc1_2500000=10002,m
 https://live.host247.net/gk/gksat/chunklist_w615970821.m3u8
 #EXTINF:0 group-title="NEWS ",GK+Plus
 https://live.host247.net/gk/gkplus/playlist.m3u8
-#EXTINF:0 group-title="NEWS ",Payam TV
-https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
-#EXTINF:0 group-title="NEWS ",Kirkuk  Tv
-https://live.kirkuklive.live/hls/stream/index.m3u8
 #EXTINF:0 group-title="KURDISH ",Shams TV AR
 https://stream.shams.tv/hls/stream.m3u8#515c4e58fb0a1c133f1b51c22d2cce0ef61286a50bdb37220ba40ebbdc0dad03
-#EXTINF:0 group-title="NEWS ",ZAGROS TV AR
-https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/chunklist.m3u8
-#EXTINF:0 group-title="NEWS ",MMN News
-http://mmn.mypsx.net:1935/live/mmnhdnews/playlist.m3u8
 #EXTINF:0 group-title="NEWS ",NÛçê TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
 #EXTINF:0 group-title="KURDISH ",AVA Sport
