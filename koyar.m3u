@@ -35,8 +35,6 @@ https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 http://avrstream.com:1935/live/SoranEntertainment/playlist.m3u8
 #EXTINF:0 tvg-name="KURDISTAN TV" tvg-logo="https://i.postimg.cc/Wjcg6dk3/KDTV.png" group-title="NEWS ",KURDISTAN TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/chunklist_w1790905875_b1700000_sleng_t64MTA4MHA=.m3u8
-#EXTINF:0 tvg-name="shnatv" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",shnatv
-http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
 #EXTINF:0 tvg-name="SHNA TV QURAN" tvg-logo="https://i.postimg.cc/Gc5XVBZ9/SHNAQ.png" group-title="ISLAMIC ",SHNA TV QURAN
 http://rawshan.ddns.net:1935/live/rawshantv/playlist.m3u8
 #EXTINF:0 tvg-name="ZAGROS TV" tvg-logo="https://i.postimg.cc/WpMq857p/Pics-Art-25-09-09-14-49-31-102.png" group-title="NEWS ",ZAGROS TV
@@ -67,15 +65,11 @@ http://afarintv2.flashmediacast.com:1935/afarinTV/livestream/playlist.m3u8
 http://afarintv2.flashmediacast.com:1935/afarinTV/d1/livestream/HawezHD.m3u8
 #EXTINF:0 tvg-name="Kirkuk TV" tvg-logo="https://i.postimg.cc/CYWrW24y/krd.png" group-title="NEWS ",Kirkuk TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
-#EXTINF:0 tvg-name="SHNA HD" tvg-logo="https://i.postimg.cc/5xMj7y1t/shna.png" group-title="KURDISH ",SHNA HD
-http://shnatv.ddns.net:1935/live/shnatv/playlist.m3u8
-#EXTINF:0 tvg-name="SOZ QURAN" tvg-logo="https://i.postimg.cc/xfDMt1tB/SOZ.png" group-title="ISLAMIC ",SOZ QURAN
-http://live20.bozztv.com/giatv/giatv-sozquran/sozquran/chunks.m3u8
 #EXTINF:0 tvg-name="sozetv" tvg-logo="https://i.postimg.cc/xfDMt1tB/SOZ.png" group-title="ISLAMIC ",sozetv
 https://live20.bozztv.com/giatv/giatv-sozetv/sozetv/chunks.m3u8
 #EXTINF:0 tvg-name="infinity-tv" tvg-logo="https://i.postimg.cc/CYh5Hjwq/infinity.png" group-title="KURDISH ",infinity-tv
 https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-name="Mix SPORT" group-title="KURDISH ",Mix SPORT
+#EXTINF:0 tvg-name="mix kurdi" group-title="KURDISH ",mix kurdi
 http://avrstream.com:1935/live/Mix-kurdy/playlist.m3u8
 #EXTINF:0 tvg-name="HORMIZAIR" tvg-logo="https://i.postimg.cc/bqB96HNL/HORNZ.png" group-title="KURDISH ",HORMIZAIR
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
@@ -139,8 +133,6 @@ https://live.host247.net/gk/gkplus/playlist.m3u8
 https://stream.shams.tv/hls/stream.m3u8#515c4e58fb0a1c133f1b51c22d2cce0ef61286a50bdb37220ba40ebbdc0dad03
 #EXTINF:0 group-title="NEWS ",NÛçê TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
-#EXTINF:0 group-title="KURDISH ",AVA Sport
-http://intvplus.com:8080/live/804881794591/6a7311637597a/169.ts
 #EXTINF:0 tvg-name="Asharq News" tvg-logo="https://asharq.com/_next/static/media/asharqLogo.00f9b3ef.svg" group-title="NEWS ",Asharq News
 https://live-news.asharq.com/asharq_1080p30.m3u8
 #EXTINF:0 tvg-name="al jazeera 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLVPfJmGCNgk396Jq0USecSG5HNCmV_cRoh2NARXC9w&s=10" group-title="NEWS ",al jazeera 2
