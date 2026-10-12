@@ -159,7 +159,7 @@ https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 #EXTINF:0 tvg-name="Al Arabiya" tvg-logo="https://images.seeklogo.com/logo-png/22/1/al-arabiya-news-channel-logo-png_seeklogo-221044.png" group-title="NEWS ",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8
-#EXTINF:0 tvg-name="Al Sharqiya" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJ7TVX20QdGd68ghlYKJNXZYqcLXUcC1upidrNydicg&s=10" group-title="NEWS ",Al Sharqiya
+#EXTINF:0 tvg-name="Al Sharqiya" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKMsxHH1lVUALNte6R5mFolUavQNkWxVkPgI78ZjerA&s=10" group-title="NEWS ",Al Sharqiya
 https://indexforce.com/newshighres/mystream/chunklist_w751328493.m3u8
-#EXTINF:0 tvg-name="Al Hadath" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKMsxHH1lVUALNte6R5mFolUavQNkWxVkPgI78ZjerA&s=10" group-title="NEWS ",Al Hadath
+#EXTINF:0 tvg-name="Al Hadath" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJ7TVX20QdGd68ghlYKJNXZYqcLXUcC1upidrNydicg&s=10" group-title="NEWS ",Al Hadath
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
