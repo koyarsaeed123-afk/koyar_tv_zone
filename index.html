@@ -10,8 +10,18 @@
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; user-select: none; }
         body { background: #000; color: #fff; height: 100vh; overflow: hidden; }
 
+        /* شاشەی سەرەکی و ڤیدیۆ */
         .player-container { position: relative; width: 100vw; height: 100vh; background: #050505; display: flex; align-items: center; justify-content: center; }
         video { width: 100%; height: 100%; object-fit: contain; }
+
+        /* دوگمەی فولسکرین */
+        .fs-btn {
+            position: absolute; top: 20px; left: 20px; background: rgba(15, 15, 25, 0.8);
+            border: 1px solid #444; color: #ffcc00; padding: 8px 16px; border-radius: 8px;
+            cursor: pointer; z-index: 150; font-size: 14px; transition: background 0.2s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        .fs-btn:hover { background: rgba(255, 204, 0, 0.2); }
 
         /* بانەری خوارەوەی ڕیسیڤەر */
         .infobar {
@@ -53,7 +63,7 @@
         .osd-channel-item img { width: 45px; height: 32px; object-fit: contain; background: #000; border-radius: 4px; padding: 2px; }
         .osd-channel-name { font-size: 15px; font-weight: bold; }
 
-        /* پێشاندانی هەڵە لەسەر شاشە بۆ دیباگکردن لەسەر تیڤی */
+        /* پیشاندانی هەڵە */
         #errorBox {
             position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
             background: rgba(229, 9, 20, 0.9); color: #fff; padding: 10px 20px;
@@ -73,6 +83,9 @@
 <body>
 
     <div class="player-container">
+        <!-- دوگمەی فولسکرین -->
+        <button class="fs-btn" id="fsBtn" onclick="toggleFullscreen()">فولسکرین ⛶</button>
+
         <div id="errorBox"></div>
         <div id="loader" class="loader"></div>
         <video id="mainVideo" autoplay playsinline></video>
@@ -124,10 +137,26 @@
     var osdMenu = document.getElementById('osdMenu');
     var volumeBox = document.getElementById('volumeBox');
     var errorBox = document.getElementById('errorBox');
+    var fsBtn = document.getElementById('fsBtn');
 
     function showError(msg) {
         errorBox.innerText = msg;
         errorBox.style.display = 'block';
+    }
+
+    // کۆنتڕۆڵی فولسکرین
+    function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                console.error("Error attempting to enable fullscreen:", err.message);
+            });
+            fsBtn.innerText = "ئاسایی کردنەوە 🗗";
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+            fsBtn.innerText = "فولسکرین ⛶";
+        }
     }
 
     video.addEventListener('waiting', () => loader.style.display = 'block');
@@ -288,7 +317,7 @@
                     currentIndex = allChannels.findIndex(c => c.url === currentGroupChannels[activeSubIdx].url);
                     buildOsdList();
                 } else {
-                    playChannel(currentIndex - 1, true);
+                    playChannel(currentIndex - 1, true); // گۆڕینی کەناڵ بۆ سەرەوە بە بێ کردنەوەی لیست
                 }
                 e.preventDefault();
                 break;
@@ -300,7 +329,7 @@
                     currentIndex = allChannels.findIndex(c => c.url === currentGroupChannels[activeSubIdx].url);
                     buildOsdList();
                 } else {
-                    playChannel(currentIndex + 1, true);
+                    playChannel(currentIndex + 1, true); // گۆڕینی کەناڵ بۆ خوارەوە بە بێ کردنەوەی لیست
                 }
                 e.preventDefault();
                 break;
